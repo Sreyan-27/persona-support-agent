@@ -1,0 +1,28 @@
+TECHCORP CLOUD - REFUND POLICY
+================================
+
+GENERAL POLICY
+TechCorp Cloud offers refunds under the specific conditions outlined below. All refund requests are handled by a human billing specialist and cannot be processed through self-service, regardless of eligibility.
+
+ELIGIBLE FOR REFUND
+- Annual plans canceled within 14 days of the initial purchase: full refund.
+- Confirmed duplicate charges (the same invoice charged twice due to a system error): full refund of the duplicate amount.
+- Service outages exceeding the SLA threshold for Enterprise customers: prorated credit per the SLA policy (see uptime_and_sla_policy.md).
+- Accidental purchase of an add-on within 48 hours, unused: full refund.
+
+NOT ELIGIBLE FOR REFUND
+- Monthly subscription charges after the billing date, including partial-month cancellations.
+- Annual plans canceled after the 14-day window.
+- Charges resulting from a customer's own failure to cancel before a renewal date.
+- Usage-based overage charges (API calls, storage) that were actually consumed.
+
+PROCESSING TIME
+Approved refunds are issued to the original payment method within 5-10 business days, depending on the card issuer or bank.
+
+HOW TO REQUEST
+Refund requests cannot be self-served and always require a human billing specialist. Any conversation involving a refund, dispute, or "chargeback" must be escalated immediately with full transaction details (invoice number, amount, date) included in the handoff.
+
+RELATED ARTICLES
+- billing_policy.txt
+- invoice_and_payment_methods.md
+- support_escalation_policy.txt

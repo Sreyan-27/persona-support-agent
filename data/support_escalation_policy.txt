@@ -1,0 +1,36 @@
+TECHCORP CLOUD - SUPPORT ESCALATION POLICY
+============================================
+
+PURPOSE
+This document defines when a support conversation must be handed off from automated or tier-1 support to a human specialist, and how that handoff should be packaged.
+
+ALWAYS ESCALATE (NO EXCEPTIONS)
+- Any billing dispute, refund request, or report of a duplicate/unexpected charge.
+- Any request to disable or bypass account security controls (2FA, SSO) without going through identity verification.
+- Any account flagged for a security lockout (suspicious activity), as opposed to a standard failed-login lockout.
+- Legal requests: subpoenas, GDPR/CCPA data requests, terms-of-service disputes, contract negotiation.
+- Enterprise contract or custom SLA term changes.
+- Data restore requests (see data_export_and_backup.md) — restores are never self-service.
+- 2FA recovery when all backup codes are exhausted and the authenticator device is lost.
+
+ESCALATE WHEN UNRESOLVED
+- The available documentation does not directly answer the customer's question.
+- The customer indicates that previously suggested steps did not resolve the issue (repeated back-and-forth without progress).
+- The customer's tone indicates significant frustration or repeated complaints across the conversation, even if the underlying issue is normally self-service.
+- Retrieval confidence from the knowledge base is low for the query (no clearly relevant article found).
+
+RESPONSE TIME EXPECTATIONS BY TIER (post-escalation)
+| Plan | First Human Response |
+|------|------------------------|
+| Free | Community forum, best effort |
+| Pro | 24 hours |
+| Business | 8 hours |
+| Enterprise | 1 hour, 24/7 |
+
+HANDOFF PACKAGE REQUIREMENTS
+Every escalation must be accompanied by a structured summary including: detected customer persona, a concise issue summary, conversation history, which knowledge base documents were consulted, what troubleshooting steps were already attempted, and a recommended next action for the human agent. This prevents the customer from having to repeat information already provided to the automated system.
+
+RELATED ARTICLES
+- refund_policy.txt
+- data_export_and_backup.md
+- account_lockout_policy.md

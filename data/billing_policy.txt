@@ -1,0 +1,33 @@
+TECHCORP CLOUD - BILLING POLICY
+================================
+
+BILLING CYCLE
+Subscriptions are billed monthly or annually, depending on the plan selected at signup. Monthly plans are charged on the same calendar day each month as the original signup date. Annual plans are charged once per year on the signup anniversary.
+
+PRORATION
+Upgrading mid-cycle: the new plan takes effect immediately, and the customer is charged a prorated difference for the remainder of the current billing period.
+Downgrading mid-cycle: the new (lower) plan takes effect at the START of the next billing cycle. No partial refund is issued for the current cycle.
+
+FAILED PAYMENTS
+If a scheduled payment fails:
+1. We retry the charge automatically after 24 hours, then again after 72 hours.
+2. The account owner receives an email notification after each failed attempt.
+3. If all three attempts fail, the account is moved to "Past Due" status. Core features remain active for a 7-day grace period.
+4. After the 7-day grace period, the account is downgraded to the Free tier until payment is resolved. No data is deleted.
+
+DUPLICATE OR UNEXPECTED CHARGES
+Duplicate charges can occur if a payment method is updated mid-retry-cycle, causing both the old and new method to be charged within the same billing window. This is treated as a billing-sensitive issue and is NOT resolved through self-service. Any report of a duplicate or unexpected charge must be escalated to a human billing specialist, who can issue a refund after verifying the transaction in the payment processor dashboard. Self-service refunds are not available for this category of issue.
+
+INVOICES
+Invoices are generated automatically and emailed as PDF to the billing contact on file within 24 hours of each charge. Historical invoices are available under Account Settings -> Billing -> Invoice History going back 24 months.
+
+TAXES
+Sales tax / VAT is calculated automatically based on the billing address on file. Tax-exempt organizations can upload an exemption certificate under Account Settings -> Billing -> Tax Settings; exemptions are reviewed within 2 business days.
+
+CANCELLATION
+Customers can cancel at any time from Account Settings -> Billing -> Cancel Subscription. Access continues until the end of the current paid billing period. No partial refunds are issued for unused time on monthly plans. Annual plans canceled within 14 days of purchase are eligible for a full refund per our Refund Policy.
+
+RELATED ARTICLES
+- refund_policy.txt
+- invoice_and_payment_methods.md
+- subscription_plan_changes.md
